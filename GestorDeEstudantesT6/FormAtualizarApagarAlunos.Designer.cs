@@ -229,6 +229,7 @@
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(163, 20);
             this.textBoxId.TabIndex = 38;
+            this.textBoxId.TextChanged += new System.EventHandler(this.textBoxId_TextChanged);
             // 
             // label7
             // 
@@ -265,6 +266,7 @@
             this.Controls.Add(this.label2);
             this.Name = "FormAtualizarApagarAlunos";
             this.Text = "FormAtualizarApagarAlunos";
+            this.Load += new System.EventHandler(this.FormAtualizarApagarAlunos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

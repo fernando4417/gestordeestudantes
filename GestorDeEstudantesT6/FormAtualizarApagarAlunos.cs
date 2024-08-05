@@ -29,5 +29,15 @@ namespace GestorDeEstudantesT6
                 pictureBoxFoto.Image = Image.FromFile(selecionarImagem.FileName);
             }
         }
+
+        private void FormAtualizarApagarAlunos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
